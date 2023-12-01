@@ -42,6 +42,7 @@ export {
   initializeAgentExecutor,
   initializeAgentExecutorWithOptions,
   type InitializeAgentExecutorOptions,
+  type InitializeAgentExecutorOptionsStructured,
 } from "./initialize.js";
 export {
   ZeroShotAgent,
@@ -72,3 +73,4 @@ export {
   type OpenAIAgentInput,
   type OpenAIAgentCreatePromptArgs,
 } from "./openai/index.js";
+export { XMLAgent, type XMLAgentInput } from "./xml/index.js";
